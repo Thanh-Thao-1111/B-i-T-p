@@ -15,9 +15,9 @@ foreach ($questions as $line) {
     }
     $current_question[] = $line;
 }
-$all_questions[] = $current_question; // Thêm câu hỏi cuối cùng vào mảng
+$all_questions[] = $current_question; //thêm câu hỏi cuối cùng vào mảng
 
-// Tạo mảng đáp án
+//mảng đáp án
 foreach ($questions as $line) {
     if (strpos($line, "Đáp án:") !== false) {
         $answers[] = trim(substr($line, strpos($line, ":") + 1));
@@ -41,9 +41,8 @@ foreach ($questions as $line) {
 
     <div class="container mt-5">
         <h1 class="text-center mb-4">Trắc Nghiệm</h1>
-        <form method="POST" action="/Bai2/index.php">
+        <form action="/Bài Tập/BTTH/BTTH1/Bai2/result.php" method="POST" >
             <?php
-            // Hiển thị từng câu hỏi
             $question_number = 1;
             foreach ($all_questions as $question) {
                 echo "<div class='card mb-4'>";

@@ -1,5 +1,5 @@
 <?php
-include($_SERVER['DOCUMENT_ROOT'].'/BT1/data.php');
+include($_SERVER['DOCUMENT_ROOT'].'/Bài tập/BTTH/BTTH1/BT1/data.php');
 
 ?>
 <!DOCTYPE html>
@@ -10,7 +10,7 @@ include($_SERVER['DOCUMENT_ROOT'].'/BT1/data.php');
 </head>
 <body>
     <h1>Danh sách các loài hoa</h1>
-    <a href="/BT1/add.php">Thêm hoa</a>
+    <a href="/Bài tập/BTTH/BTTH1/BT1/add.php">Thêm hoa</a>
     <table border="1" cellpadding="10" cellspacing="0">
         <thead>
             <tr>

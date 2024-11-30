@@ -1,5 +1,5 @@
 <?php
-include('data.php');
+include('/Bài tập/BTTH/BTTH1/BT1/data.php');
 $id = $_GET['id'];
 $flower = null;
 

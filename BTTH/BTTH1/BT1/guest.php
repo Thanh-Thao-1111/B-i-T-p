@@ -1,5 +1,5 @@
 <?php
-include($_SERVER['DOCUMENT_ROOT'].'/BT1/data.php');
+include($_SERVER['DOCUMENT_ROOT'].'/Bài tập/BTTH/BTTH1/BT1/data.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">

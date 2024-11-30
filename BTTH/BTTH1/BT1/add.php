@@ -6,7 +6,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         'description' => $_POST['description'],
         'image' => $_POST['image'],
     ];
-    header('Location: admin.php');
+    header('Location: /Bài tập/BTTH/BTTH1/BT1/admin.php');
     exit();
 }
 ?>

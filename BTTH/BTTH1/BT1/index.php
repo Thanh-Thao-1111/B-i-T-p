@@ -3,7 +3,7 @@ session_start();
 
 if (isset($_GET['user_type'])) {
     $_SESSION['user_type'] = $_GET['user_type'];
-    header('Location: admin.php' . ($_GET['user_type'] === 'admin' ? 'admin.php' : 'guest.php'));
+    header('Location: ' . ($_GET['user_type'] === 'admin' ? '/Bài Tập/BTTH/BTTH1/BT1/admin.php' : '/Bài Tập/BTTH/BTTH1/BT1/guest.php'));
     exit();
 }
 ?>
@@ -19,4 +19,4 @@ if (isset($_GET['user_type'])) {
     <a href="?user_type=guest">Khách</a> | 
     <a href="?user_type=admin">Quản trị viên</a>
 </body>
-</html>  
+</html>
