@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "name": "B\u00fat",
+        "price": 2000
+    },
+    {
+        "id": 2,
+        "name": "T\u1ea8Y",
+        "price": 3000
+    },
+    {
+        "id": 3,
+        "name": "M\u00e1y Gi\u1eb7t",
+        "price": 4000
+    },
+    {
+        "id": 4,
+        "name": "M\u00e1y t\u00ednh",
+        "price": 999999
+    },
+    {
+        "id": 5,
+        "name": "fudshfsifh",
+        "price": 44444
+    }
+]
